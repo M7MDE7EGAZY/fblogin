@@ -134,7 +134,7 @@ _____________________________________
  ___________________________________________________________________
   
   we added a container to the lower half of the form container to add login button and the checkbox if the user want the user and password to be remembered
-  #lower {
+      #lower {
          background: #ecf2f5;
          width: 100%;
          height: 69px;
