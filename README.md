@@ -131,6 +131,63 @@ _____________________________________
          box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, 0.4),
             0 0 0 5px #e6f2f9;
       }
+  input[type="checkbox"] {
+         margin-left: 20px;
+         margin-top: 30px;
+      }
+
+      .check {
+         margin-left: 2px;
+         font-size: 13px;
+         color: #444;
+         text-shadow: 0 1px 0 #fff;
+      }
+
+      input[type="submit"] {
+         float: right;
+         margin-right: 20px;
+         margin-top: 20px;
+         width: 80px;
+         height: 35px;
+         font-size: 14px;
+         font-weight: bold;
+         color: #fff;
+         background-color: #1877f2;
+         /*IE fallback*/
+         border-radius: 15px;
+         border: 1px solid #1877f2;
+         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3),
+            inset 0 1px 0 rgba(255, 255, 255, 0.5);
+         cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+         background-image: -webkit-gradient(linear,
+               left top,
+               left bottom,
+               from(#b6e2ff),
+               to(#6ec2e8));
+         background-image: -moz-linear-gradient(top left 90deg,
+               #b6e2ff 0%,
+               #6ec2e8 100%);
+         background-image: linear-gradient(top left 90deg,
+               #b6e2ff 0%,
+               #6ec2e8 100%);
+      }
+
+      input[type="submit"]:active {
+         background-image: -webkit-gradient(linear,
+               left top,
+               left bottom,
+               from(#6ec2e8),
+               to(#b6e2ff));
+         background-image: -moz-linear-gradient(top left 90deg,
+               #6ec2e8 0%,
+               #b6e2ff 100%);
+         background-image: linear-gradient(top left 90deg,
+               #6ec2e8 0%,
+               #b6e2ff 100%);
+      }
  ___________________________________________________________________
   
   we added a container to the lower half of the form container to add login button and the checkbox if the user want the user and password to be remembered
