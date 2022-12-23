@@ -33,7 +33,7 @@ First er design the body of the website in css related to <body>
   
   thirdly we added container for facebook logo and slogan  with id "Logo-container" while centring it verticaly and alighning it to the left
   __________________________________________________________________
-  logo-container {
+       logo-container {
          position: fixed;
          width: 600px;
          height: 300px;
@@ -51,7 +51,7 @@ First er design the body of the website in css related to <body>
       }
   __________________________________________________________________
   Here we added the margins of the form to make sure it won't colappse with container border
-  form {
+      form {
          margin: 0 auto;
          margin-top: 20px;
       }
