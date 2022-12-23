@@ -1,7 +1,7 @@
 #facebook Login Page
 First er design the body of the website in css related to <body>
   __________________________________________________________________
-     html,
+      html,
       body {
          width: 100%;
          height: 100%;
@@ -89,8 +89,7 @@ _____________________________________
   
   
   here are the design of the main input to be exactly like the facebook
-  _______________________________________________________________
-  input {
+      input {
          font-family: "Helvetica Neue", Helvetica, sans-serif;
          font-size: 17px;
          outline: none;
@@ -131,7 +130,7 @@ _____________________________________
          box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, 0.4),
             0 0 0 5px #e6f2f9;
       }
-  input[type="checkbox"] {
+      input[type="checkbox"] {
          margin-left: 20px;
          margin-top: 30px;
       }
